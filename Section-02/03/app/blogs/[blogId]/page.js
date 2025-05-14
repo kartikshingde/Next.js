@@ -1,7 +1,8 @@
-
-
-export const metadata={
-    title:"Blog"
+export async function generateMetadata({ params }) {
+  const { blogId } = await params;
+  return {
+    title: `Blog ${blogId}`,
+  };  
 }
 
 export default async function Blog({ params }) {
