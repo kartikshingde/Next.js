@@ -21,6 +21,9 @@ export default function Home() {
       <p>
         <Link href="/users">User</Link>
       </p>
+      <p>
+        <Link href="/files">View Files</Link>
+      </p>
     </>
   );
 }
